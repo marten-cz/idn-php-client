@@ -1,0 +1,24 @@
+{
+	"name": "marten/idn",
+	"type": "library",
+	"description": "Image Delivery Network with automatic resize functions",
+	"keywords": ["images", "cdn"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Martin Malek",
+			"homepage": "http://www.marten-online.com"
+		}
+	],
+	"require": {
+		"php": ">=5.0.0",
+		"ext-curl": "*",
+		"ext-json": "*"
+	},
+	"version": "0.1",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1-dev"
+		}
+	}
+}
