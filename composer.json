@@ -21,10 +21,12 @@
 	"replace": {
 		"marten/idn":"*"
 	},
-	"version": "0.1",
+	"autoload": {
+		"psr-4": { "Pagewiser\\Idn\\Client\\": "src/" }
+	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "0.1-dev"
+			"dev-master": "0.2-dev"
 		}
 	}
 }
