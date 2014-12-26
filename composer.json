@@ -18,6 +18,9 @@
 		"ext-curl": "*",
 		"ext-json": "*"
 	},
+	"replace": {
+		"marten/idn":"*"
+	},
 	"version": "0.1",
 	"extra": {
 		"branch-alias": {
