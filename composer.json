@@ -1,5 +1,5 @@
 {
-	"name": "pagewiser/idn",
+	"name": "pagewiser/idn-client",
 	"type": "library",
 	"description": "Client for Image Delivery Network with automatic resize functions",
 	"keywords": ["images", "cdn"],
