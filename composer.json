@@ -1,11 +1,14 @@
 {
-	"name": "marten/idn",
+	"name": "pagewiser/idn",
 	"type": "library",
-	"description": "Image Delivery Network with automatic resize functions",
+	"description": "Client for Image Delivery Network with automatic resize functions",
 	"keywords": ["images", "cdn"],
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"authors": [
 		{
+			"name": "PageWiser",
+			"homepage": "https://www.pagewiser.com"
+		}, {
 			"name": "Martin Malek",
 			"homepage": "http://www.marten-online.com"
 		}

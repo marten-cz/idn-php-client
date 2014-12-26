@@ -1,6 +1,6 @@
 <?php
 
-namespace Marten\Idn;
+namespace Pagewiser\Idn\Client;
 
 class Api
 {
@@ -100,6 +100,21 @@ class Api
 		curl_close ($ch);
 
 		return json_decode($result);
+	}
+
+
+	public function uploadUrl($path, $fileName, $fileUrl)
+	{
+		$content = file_get_contents($fileUrl);
+		$file = realpath($filePath);
+		$post = array(
+			'action' => 'upload',
+			'path' => $path,
+			'filename' => $fileName,
+			'content' => $content,
+		);
+
+		return $this->curl($post);
 	}
 
 
